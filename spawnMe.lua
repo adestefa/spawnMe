@@ -164,7 +164,7 @@ function spawnMe.nextSkin()
 	else
 		spawnMe.data["pointer"] = 1;
 	end
-	return spawnMe.list[spawnMe.data["pointer"]];
+	return spawnMe.list[tmp];
  end
 -- ======================================= --
 --  Find random existing ped to possess
